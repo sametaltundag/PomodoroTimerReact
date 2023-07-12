@@ -4,9 +4,23 @@ function Social() {
   return (
     <div className='social_main'>
         <div className='social_section'>
-            <i class="bi bi-linkedin"></i>
-            <i class="bi bi-instagram"></i>
-            <i class="bi bi-github"></i>
+            <a 
+            href='https://www.linkedin.com/in/sametaltundag/' 
+            target='blank'>
+              <i className="bi bi-linkedin"></i>
+            </a>
+
+            <a 
+            href='https://instagram.com/sametxaltundag' 
+            target='blank'>
+              <i className="bi bi-instagram"></i>
+            </a>
+
+            <a 
+            href='https://github.com/sametaltundag'
+            target='blank'>
+              <i className="bi bi-github"></i>
+            </a>
         </div>
     </div>
   )

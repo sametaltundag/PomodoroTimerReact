@@ -3,12 +3,19 @@ import Header from './Header'
 import Main from './Main'
 import Footer from './Footer'
 
-function MainPage() {
+function MainPage(props) {
+  const {pomodoro, pomoBreak, regulation, setRegulation} = props;
+
   return (
     <div>
         <main>
             <Header />
-            <Main />
+            <Main
+            pomodoro={pomodoro}
+            pomoBreak={pomoBreak}
+            regulation={regulation}
+            setRegulation={setRegulation}
+            />
             <Footer />
         </main>
     </div>
