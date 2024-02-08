@@ -31,7 +31,7 @@ function Main(props) {
             </h1>
           </div>
           <div className='main_process'>
-            <button onClick={()=>{setIsPlay(!isPlay)}}>{!isPlay ? <i className="bi bi-play-fill"></i> : <i className="bi bi-pause-fill"></i>}</button>
+            <button onClick={''}>{!isPlay ? <i className="bi bi-play-fill"></i> : <i className="bi bi-pause-fill"></i>}</button>
             <div className='regulation-btn' onClick={setRegulation}>
               <p>Regulation</p>
             </div>
